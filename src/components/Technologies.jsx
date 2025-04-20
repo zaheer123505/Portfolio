@@ -1,16 +1,18 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaCuttlefish, FaCode, FaNodeJs } from "react-icons/fa";
 import {
-  FaCuttlefish, FaCode, FaNodeJs,
-} from "react-icons/fa";
-import {
-  DiPython, DiHtml5, DiCss3, DiBootstrap, DiGithubBadge, DiVisualstudio,
+  DiPython,
+  DiHtml5,
+  DiCss3,
+  DiBootstrap,
+  DiGithubBadge,
+  DiVisualstudio,
 } from "react-icons/di";
-import {
-  SiCplusplus, SiExpress, SiMongodb,
-} from "react-icons/si";
+import { SiCplusplus, SiExpress, SiMongodb } from "react-icons/si";
 import { BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
 import { RiReactjsLine } from "react-icons/ri";
+import { FaDatabase } from "react-icons/fa";
 
 const Technologies = () => {
   return (
@@ -31,10 +33,18 @@ const Technologies = () => {
             Programming Languages
           </h3>
           <ul className="list-disc list-inside space-y-2">
-            <li className="flex items-center gap-2"><FaCuttlefish /> C</li>
-            <li className="flex items-center gap-2"><SiCplusplus /> C++</li>
-            <li className="flex items-center gap-2"><DiPython /> Python</li>
-            <li className="flex items-center gap-2"><FaCode /> C#</li>
+            <li className="flex items-center gap-2">
+              <FaCuttlefish /> C
+            </li>
+            <li className="flex items-center gap-2">
+              <SiCplusplus /> C++
+            </li>
+            <li className="flex items-center gap-2">
+              <DiPython /> Python
+            </li>
+            <li className="flex items-center gap-2">
+              <FaCode /> C#
+            </li>
           </ul>
         </div>
 
@@ -44,13 +54,27 @@ const Technologies = () => {
             Web Development
           </h3>
           <ul className="list-disc list-inside space-y-2">
-            <li className="flex items-center gap-2"><DiHtml5 /> HTML</li>
-            <li className="flex items-center gap-2"><DiCss3 /> CSS</li>
-            <li className="flex items-center gap-2"><BiLogoJavascript /> JavaScript</li>
-            <li className="flex items-center gap-2"><DiBootstrap /> Bootstrap</li>
-            <li className="flex items-center gap-2"><RiReactjsLine /> ReactJS</li>
-            <li className="flex items-center gap-2"><FaNodeJs /> Node.js</li>
-            <li className="flex items-center gap-2"><SiExpress /> Express.js</li>
+            <li className="flex items-center gap-2">
+              <DiHtml5 /> HTML
+            </li>
+            <li className="flex items-center gap-2">
+              <DiCss3 /> CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <BiLogoJavascript /> JavaScript
+            </li>
+            <li className="flex items-center gap-2">
+              <DiBootstrap /> Bootstrap
+            </li>
+            <li className="flex items-center gap-2">
+              <RiReactjsLine /> ReactJS
+            </li>
+            <li className="flex items-center gap-2">
+              <FaNodeJs /> Node.js
+            </li>
+            <li className="flex items-center gap-2">
+              <SiExpress /> Express.js
+            </li>
           </ul>
         </div>
 
@@ -60,10 +84,20 @@ const Technologies = () => {
             Databases & Tools
           </h3>
           <ul className="list-disc list-inside space-y-2">
-            <li className="flex items-center gap-2"><SiMongodb /> MongoDB</li>
-            <li className="flex items-center gap-2"><BiLogoPostgresql /> PostgreSQL</li>
-            <li className="flex items-center gap-2"><DiGithubBadge /> GitHub</li>
-            <li className="flex items-center gap-2"><DiVisualstudio /> VSCode</li>
+            <li className="flex items-center gap-2">
+              <SiMongodb /> MongoDB
+            </li>
+
+            <li className="flex items-center gap-2">
+              <FaDatabase  />
+              SQL
+            </li>
+            <li className="flex items-center gap-2">
+              <DiGithubBadge /> GitHub
+            </li>
+            <li className="flex items-center gap-2">
+              <DiVisualstudio /> VSCode
+            </li>
           </ul>
         </div>
       </div>
