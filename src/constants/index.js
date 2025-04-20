@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.png";
+import project5 from '../assets/projects/project-5.png'
 
 export const HERO_CONTENT = `I am a motivated and creative full stack developer with a strong foundation in front-end and back-end technologies. With hands-on experience in projects using HTML, CSS, JavaScript, ReactJS, Node.js, and MongoDB, I enjoy building user-friendly and efficient web applications. My goal is to leverage my skills to develop impactful tech solutions, continuously learn new tools, and contribute meaningfully to innovation.`;
 
@@ -26,6 +27,13 @@ export const PROJECTS = [
     description:
       "A web platform that allows NIT Silchar students to buy and sell items within the college community. Focused on responsive UI and efficient browsing using ReactJS and Bootstrap.",
     technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Bootstrap"],
+  },
+  {
+    title: "CodeLens",
+    image: project5, // Replace with your actual import or path
+    description:
+      "An AI-powered code review web app built using React and Gemini AI API. Users can paste code, receive instant feedback on bugs and improvements, toggle between dark/light mode, view visual code diffs, and download suggestions. Includes Monaco Editor, toast notifications, and JavaScript execution support.",
+    technologies: ["React", "Tailwind CSS", "Gemini AI API", "Monaco Editor", "JavaScript"]
   },
   {
     title: "NITS Kabaddi Club Website",
@@ -56,6 +64,8 @@ export const PROJECTS = [
     technologies: ["HTML5", "CSS3", "JavaScript", "Font Awesome"],
   
 },
+
+
 ];
 
 
