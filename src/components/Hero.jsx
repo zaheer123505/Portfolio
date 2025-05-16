@@ -1,7 +1,7 @@
 import React from "react";
 // import profilepic from "../assets/profilepic.webp";
 // import profilepic from '../assets/pic.jpg'
-import profilepic from '../assets/Profilepic-1.jpeg'
+import profilepic from '../assets/profilepic-3.jpeg'
 import { HERO_CONTENT } from "../constants";
 import { motion, transform } from "framer-motion";
 

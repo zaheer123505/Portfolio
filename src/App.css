@@ -1,0 +1,23 @@
+/* Gradient Border Animation */
+.card-wrapper::before {
+    content: "";
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    height: 150%;
+    width: 150%;
+    background: conic-gradient(
+      rgba(238, 92, 33, 0) 0deg,
+      rgba(238, 92, 33, 1) 0deg,
+      transparent 40deg
+    );
+    animation: border-spin 7s linear infinite;
+  }
+  
+  
+  /* Border Animation */
+  @keyframes border-spin {
+    100% {
+      transform: rotate(-360deg);
+    }
+  } 
