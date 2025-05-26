@@ -44,7 +44,8 @@ const Hero = () => {
               Shaik Zaheer
             </motion.h2>
             <motion.span variants={childVaraints} className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
-              Full Stack Developer
+              {/* Full Stack Developer */}
+              Frontend Developer
             </motion.span>
             <motion.p variants={childVaraints}  className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
               {HERO_CONTENT}
